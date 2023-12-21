@@ -1,0 +1,9 @@
+@store_backend_HostAddress = http://localhost:5155
+
+GET {{store_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{store_backend_HostAddress}}/api/category
+Accept: application/json
+
+###
